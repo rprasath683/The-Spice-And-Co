@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+                            /* ***** navbar Starts *******/
+
+                            #navbar{
+                                position: sticky;
+                                top:0;
+                                left: 0;
+                                z-index: 100;
+                                padding: .5rem 5rem;
+                                box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+                                background: black !important;
+                            }
+                            #navbar img{
+                                margin-left: -20px !important;
+                                margin-bottom: -10px;
+                                margin-top: -15px;
+                            }
+                            
+                            
+                            
+                            #navbarSupportedContent a:hover{
+                                color: rgb(255, 2, 2) !important;
+                                border-bottom: 2px solid yellow;
+                                
+                            }
+                            #navbarSupportedContent button{
+                            
+                                background-color: #daad12;
+                                width: 10rem;
+                                padding: -10px 0px !important;
+                            
+                                border-radius: 20px;
+                                font-size: 17px;
+                                font-weight: 400;
+                            }
+                            
+                            /****** navabar ends *******/
+
+
+section{
+    width: 100;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+                    /****** Home Starts *******/
+
+
+#home{
+    background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url("/images/bg1.jfif");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+
+    font-size: 100px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc;
+}
+#home p{
+    font-size: 20px;
+    color:white;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+#home .signin{
+    background-color: #daad12 ;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3 );
+}
+
+                    /****** Home Ends *******/
+
+                    /****** About Starts *******/
+#about{
+    background:linear-gradient(to right,#ea1d6f,#eb466b 100%);
+}
+#about h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}                
+#about p{
+    color: white;
+}    
+
+/* ***** contactus starts *********** */
+#contact{
+    background:linear-gradient(to right,#ea1d6f,#eb466b 100%);
+}
+#contact .signin{
+    background-color: #daad12 ;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3 );
+}
+
+#contact img{
+    height: 100%;
+}
+.box{
+    width: 80% !important;
+    margin-top: 10px;
+
+}
+form{
+display: flex;
+flex-direction: column;
+
+}
+form input
+{
+    margin:10px 0px;
+}
+
+form textarea
+{
+    margin:10px 0px;
+}
+body{
+    background:linear-gradient(to right,#ea1d6f,#eb466b 100%);
+}
+#logo{
+ /* margin: auto !important; */
+    margin-top: 50px;
+    align-items: center  !important;
+    justify-content: center !important;
+    width: 70%;
+    height: 200px !important;
+    margin-left:16%  !important;
+    border-radius: 25px;
+    
+}
